@@ -119,6 +119,14 @@ export default class Input {
 
   // Return false if the browser does not support input[type="date"].
   static supportsDateInput() {
+    
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    var isWindows=(navigator.userAgent.toLowerCase().indexOf("windows") > -1);
+    
+    if(isChrome && isWindows){
+      return false
+    }
+    
     const input = document.createElement(`input`);
     input.setAttribute(`type`, `date`);
 
