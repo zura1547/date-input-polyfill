@@ -8,7 +8,7 @@ Forked from [date-input-polyfill](https://github.com/jcgertig/date-input-polyfil
 ## Install
 
 Add to your project:
-
+* **package.json** `"date-input-polyfill": "git+https://github.com/JBeater/date-input-polyfill.git"` 
 * **Webpack/Browserify:** `require('date-input-polyfill');`
 
     or alongside **Babel:** `import 'date-input-polyfill';`
