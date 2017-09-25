@@ -274,7 +274,7 @@ class Picker {
 
       // Populate day number.
       const dayNum = i + 1 - startDay;
-      const selected = selMatrix && selDate.getDate() === dayNum;
+      const selected = selMatrix && (selDate.getDate()+1) === dayNum;
 
       matrixHTML.push(
         `<td data-day ${selected ? `data-selected` : ``}>
