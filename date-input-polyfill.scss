@@ -43,10 +43,11 @@ date-input-polyfill {
     border: 0;
     border-radius: 0;
     border-bottom: 1px solid #DADFE1;
-    height: 24px;
-    vertical-align: top;
+    height: 28px;
     -webkit-appearance: none;
     -moz-appearance: none;
+    padding-top: 3px;
+    cursor: pointer;
   }
 
   .monthSelect-wrapper {
@@ -67,14 +68,17 @@ date-input-polyfill {
       border-radius: 5px 0 0 0;
       -moz-border-radius: 5px 0 0 0;
       -webkit-border-radius: 5px 0 0 0;
+      padding-left: 8px;
     }
   }
   button {
     width: 20%;
-    background: #DADFE1;
+    background: #bebfbe;
     border-radius: 0 5px 0 0;
     -moz-border-radius: 0 5px 0 0;
     -webkit-border-radius: 0 5px 0 0;
+    font-weight: bold;
+    margin-top: -2px;
 
     &:hover {
       background: #eee;
@@ -92,10 +96,12 @@ date-input-polyfill {
   }
 
   th, td {
-    width: 32px;
+    width: 25px;
+    height: 18px;
     padding: 4px;
     text-align: center;
     box-sizing: content-box;
+    border-radius: 15%;
   }
   td[data-day] {
     cursor: pointer;
@@ -107,6 +113,7 @@ date-input-polyfill {
   }
   [data-selected] {
     font-weight: bold;
-    background: #D8EAF6;
+    background: #62a43c;
+    color: #ffffff;
   }
 }
