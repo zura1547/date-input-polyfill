@@ -5,30 +5,15 @@
   "main": "date-input-polyfill.dist.js",
   "contributors": [
     {
-      "name": "Brian Blakely",
-      "email": "anewpage.media@gmail.com"
-    },
-    {
-      "name": "Jonathan Gertig",
-      "email": "jcgertig@gmail.com",
-      "url": "https://github.com/jcgertig"
-    },
-    {
-      "name": "Pierre Klink"
-    },
-    {
-      "name": "Kyle Alwyn"
-    },
-    {
-      "name": "Joseph Victor Estolas",
-      "url": "https://github.com/jvestolas"
+      "name": "Pavol Švidraň",
+      "email": "pavol.svidran@gmail.com",
+      "url": "https://github.com/JBeater"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcgertig/date-input-polyfill.git"
+    "url": "git://github.com/JBeater/date-input-polyfill.git"
   },
-  "bugs": "https://github.com/jcgertig/date-input-polyfill/issues",
   "keywords": [
     "html5",
     "light",
